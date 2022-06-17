@@ -1,50 +1,117 @@
-.titulo-principal {
-    padding-left: 20px;
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+    margin-bottom: 0px;
 }
 
-#banner {
-    width: 100%;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.principal {
-    background: #CCCCCC;
-    padding: 30px;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-.titulo-centralizado {
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color:#C78C19;
+    text-decoration: underline;
+
+}
+
+main {
+    margin: 30px 0;
+}
+
+.produtos {
+ /*   border: 1px solid;*/
+    width: 940px;
+    margin: 0 auto;
+ /*   text-align: center; */
+}
+
+.produtos li {
+   /* border: 1px solid;*/
+    display: inline-block; /* Inline Block, além de mudar a disposição dos elementos, permite que os espaçamentos sejam ajustáveis.*/
     text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 30px 20px; /* Vale lembrar que padding pode alterar o tamanho do elemento no todo*/
+  /*  height: 300px;*/
+  /*  background-color: #CCCCCC;*/
+    margin: 0 1.5%;
+    box-sizing: border-box; /*Essa propriedade faz com que
+    a adição de pixels do padding esteja contida dentro dos
+    30% de larguda (width)*/
+
+    /*Configurando a borda*/
+    
+    border: 2px solid #000000;
+    border-radius: 10px;
+/*
+    border-color: #000000; /* definir a cor
+    border-width: 2px;     /* definir a largura
+    border-style: solid;   /* definir o estilo
+    border-radius: 10px;   /* raio das arestas das bordas
+*/
+
 }
 
-p {
-    text-align: center;
+.produtos li:hover {
+    border-width: 3px;
+    border-color: #C78C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 35px;
+}
+
+.produtos li:active {
+    border-color: #088c19;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px ;
     
 }
 
-#missao {
-    font-size: 20px;
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
 }
 
- p em strong {
-    color: #FF0000;
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
-
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-
-.itens {
-    font-style: italic;
-}
-
-.beneficios {
-    background: #FFFFFF;
-    padding: 20px;
-}
-
-.imagemBeneficios {
-    width: 50%;
-}
-
