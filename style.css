@@ -46,19 +46,17 @@ form {
     margin: 40px 0;
 }
 
-form label {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-/*
-form p {
-    font-size: 20px;
+form legend {
+margin-bottom: 20px;
 }
-*/
 
-form input, form textarea {
+.input-padrao {
     display: block;
     margin-bottom: 20px;
     padding: 10px 25px;
@@ -132,6 +130,20 @@ form input:hover, textarea:hover {
     margin-top: 10px ;
     
 }
+
+fieldset {
+    margin: 20px 0;
+}
+
+.submit , select {
+    font-size: 16px;
+}
+
+select {
+    font-size: 16px;
+}
+
+
 
 footer {
     text-align: center;
