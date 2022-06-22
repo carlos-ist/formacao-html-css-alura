@@ -201,6 +201,12 @@ td, th {
     clear: left; /* Para não ser afetado pelo Float do elemento Utensílios*/
 }
 
+/*<<<<<<<<>>>>>>>>>*/
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+}
+
 .principal p {
     margin: 0 0 1em;
 }
@@ -228,8 +234,10 @@ td, th {
     text-align: center;
 }
 
+/*<<<<<<<<>>>>>>>>>*/
 .beneficios {
     padding: 3em 0;
+    background: #888888;
 }
 
 .conteudo-beneficios {
