@@ -161,10 +161,26 @@ footer {
     cursor: pointer;
     font-size: 18px;
     border-radius: 10px;
-    transition: 1s background;
+    transition: 1s all;
     
 }
 
 .enviar:hover {
     background: red;
+    transform: scale(1.2) rotate(-3deg)
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
