@@ -42,8 +42,7 @@ nav a:hover {
 }
 
 main {
-    width: 940px;
-    margin: 0 auto;
+
 }
 
 form {
@@ -205,6 +204,8 @@ td, th {
 .principal {
     padding: 3em 0;
     background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .principal p {
@@ -227,11 +228,18 @@ td, th {
 
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888) ;
 }
 
 .mapa p {
     margin: 0 0 2em;
     text-align: center;
+    
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
 }
 
 /*<<<<<<<<>>>>>>>>>*/
